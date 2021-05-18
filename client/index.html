@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+    <title>Socket</title>
+</head>
+
+<body>
+    <h2>Socket.io</h2>
+    <div style="border: 1px solid; width: 300px; padding: 10px; font-weight: bold;">
+        <span id="status" style="font-style: italic; font-size: small; color: lightslategrey;"></span>
+        <div id="msgs" style="height: 300px;">
+        </div>
+        <div>
+            <input id="name" type="text" placeholder="name" style="width: 230px;">
+            <input id="input" type="text" placeholder="message" style="width: 230px;">
+            <button id="send">Send</button>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
